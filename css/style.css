@@ -1,0 +1,39 @@
+/*CSS För Läs-Mer och Commentar i Article */
+
+/* Läs mer-länk */
+.read-more-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.read-more-link:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}
+
+.read-more-link .icon {
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+/* Skriv kommentar-länk */
+.comment-link {
+  color: #808080;
+  text-decoration: none;
+  font-weight: normal;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.comment-link:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.comment-link .icon {
+  font-size: 1em;
+  margin-right: 5px;
+}
